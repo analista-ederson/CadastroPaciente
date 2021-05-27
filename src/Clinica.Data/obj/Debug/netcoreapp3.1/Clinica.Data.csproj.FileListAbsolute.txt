@@ -1,0 +1,15 @@
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Data.deps.json
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Data.runtimeconfig.json
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Data.runtimeconfig.dev.json
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Data.dll
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Data.pdb
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Business.dll
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\bin\Debug\netcoreapp3.1\Clinica.Business.pdb
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.csprojAssemblyReference.cache
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.AssemblyInfoInputs.cache
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.AssemblyInfo.cs
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.csproj.CoreCompileInputs.cache
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.csproj.CopyComplete
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.dll
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.pdb
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Data\obj\Debug\netcoreapp3.1\Clinica.Data.genruntimeconfig.cache

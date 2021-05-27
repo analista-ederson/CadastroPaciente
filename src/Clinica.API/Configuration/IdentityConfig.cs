@@ -1,0 +1,75 @@
+﻿using System.Text;
+using Clinica.API.Data;
+using Clinica.Data.Context;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Clinica.API.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+
+namespace Clinica.API.Configuration
+{
+    public static class IdentityConfig
+    {
+        public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services,
+                                                                  IConfiguration configuration)
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            //adicionando o Identity na aplicação
+            services.AddIdentityCore<IdentityUser>()
+           // services.AddDefaultIdentity<IdentityUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddErrorDescriber<IdentityMensagensPortugues>()
+                .AddDefaultTokenProviders();
+
+
+            // JWT
+
+            var appSettingsSection = configuration.GetSection("AppSettings");
+            services.Configure<AppSettings>(appSettingsSection);
+
+            var appSettings = appSettingsSection.Get<AppSettings>();
+            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                //configura para trabalhar com https
+                x.RequireHttpsMetadata = true;
+                //configura para guardar o token depois de logado
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    //valida se o emissor é mesmo recebido no token
+                    ValidateIssuerSigningKey = true,
+                    //configura a criptografia na chave
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = appSettings.ValidoEm,
+                    ValidIssuer = appSettings.Emissor
+                };
+            });
+
+
+
+
+
+
+
+
+            return services;
+        }
+    }
+}

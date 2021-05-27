@@ -1,0 +1,9 @@
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\bin\Debug\netcoreapp3.1\Clinica.Business.deps.json
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\bin\Debug\netcoreapp3.1\Clinica.Business.dll
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\bin\Debug\netcoreapp3.1\Clinica.Business.pdb
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.AssemblyInfoInputs.cache
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.AssemblyInfo.cs
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.csproj.CoreCompileInputs.cache
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.dll
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.pdb
+C:\Users\ederson.silva\Desktop\Fábrica\Clinica\src\Clinica.Business\obj\Debug\netcoreapp3.1\Clinica.Business.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SGd3ZkJ7CGEFBiUvE7EPawIJJP1c/zMUWyjNgqFFujNUq2U+hS8s2PrdvdOKbEFIT0opbzVdlLOiiSPTwWN09Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ederson.silva\\Desktop\\Fábrica\\Clinica\\src\\Clinica.Business\\Clinica.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ederson.silva\\.nuget\\packages\\fluentvalidation\\10.1.0\\fluentvalidation.10.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
